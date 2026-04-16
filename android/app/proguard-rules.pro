@@ -1,0 +1,11 @@
+# ProGuard rules for Unity and ARCore
+-keep class com.unity3d.player.** { *; }
+-keep class com.google.ar.core.** { *; }
+-dontwarn com.google.ar.core.**
+-keep class com.unity3d.plugin.* { *; }
+-keep class com.google.android.gms.common.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+-keep class com.google.android.gms.dynamite.** { *; }
+-keep class com.google.android.gms.chimera.** { *; }
+-dontwarn com.google.android.gms.**
+-keep class org.tensorflow.** { *; }
